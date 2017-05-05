@@ -1,0 +1,105 @@
+
+/*small mobile device styling*/
+@media only screen and (max-width: 321px){
+	body{
+		/*overflow-x: hidden;*/
+		position: relative;
+	}
+	#header{
+		height: 60px;
+	}
+	.top-navcon{
+		height: 42px;
+	}
+	nav{
+		height: 60px;
+	}
+	.navbar-brand img{
+		height: 50px;
+		position: absolute;
+		top: 10px;
+	}
+	#menu{
+		background: #f8f2aa;
+		position: relative;
+		z-index: 1000;
+	}
+	#menu ul li a{
+		text-align: center;
+	}
+	.slider{
+		margin-top: 43px;
+	}
+	#quicksearch{
+		padding:15px;
+	}
+	#registrations_box{
+		top: 40%;
+	}	
+
+}
+
+/*higher mobile devices*/
+@media only screen and (min-width: 322px) and (max-width: 767px){
+	#header{
+		height: 70px;
+	}
+	.top-navcon{
+		height: 45px;
+	}
+	nav{
+		height: 70px;
+	}
+	.navbar-brand img{
+		height: 60px;
+		position: absolute;
+		top: 5px;
+	}
+	#menu{
+		background: #f8f2aa;
+		position: relative;
+		z-index: 1000;
+	}
+	#menu ul li a{
+		text-align: center;
+	}
+	.slider{
+		margin-top: 43px;
+	}
+	#quicksearch{
+		padding:15px;
+	}
+	#registrations_box{
+		top: 40%;
+	}	
+
+}
+
+/*ipads screen devices styling*/
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+	.top-navcon{
+		height: 40px;
+	}
+	.top-nav{
+		padding-top: 8px;
+	}
+	.navbar-brand img{
+		height: 50px;
+		position: absolute;
+		top: 10px;
+	}
+	#quicksearch{
+		padding-top: 40px;
+	}
+	div#cols{
+		margin-top: 20px;
+		position: relative;
+	} 
+	#srh-btn{
+		margin-top: 20px;
+	}
+	#registrations_box{
+		top: 55%;
+	}
+}	

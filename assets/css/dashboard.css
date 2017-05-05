@@ -1,0 +1,124 @@
+/*reset*/
+button,
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+/*reset end*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+html, body{
+	height: 100%;
+}
+body{
+	padding:0;
+    margin:0;
+    background-color: #fdfcf1;
+}
+.navbar-nav li a{
+	font-size: 14px;
+	font-family: 'PT Sans', sans-serif;
+	white-space: nowrap;
+	padding-right: 25px;
+}  
+.navbar-nav li a:hover{
+	background: #c93518;
+	color: #ddd;
+}  
+.nav .open > a, .nav .open > a:focus{
+	background: #c93518;
+	color: #ddd;
+}
+.navbar-brand{
+	font-family: 'Roboto', Helvetica, Neue, sans-serif;
+}
+.navbar-brand:hover{
+	background: #c93518;
+	color: #ddd;
+}
+.navbar-brand img{
+	margin-top: -15px;
+}
+
+#dashboard_content{
+	padding-top: 50px;
+}
+.breadcrumb li a{
+	font-family: 'Raleway', sans-serif;
+}
+.profile img{
+	width: 100%;
+	height: 400px;
+}
+.pro-details{
+	margin-left: -18px;
+}
+.pro-details h2{
+	font-family: 'Oswald', sans-serif;
+	color: #222;
+}
+.pro-details label{
+	font-family: 'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #337ab7;
+}
+.pro-details input{
+	position: relative;
+	margin-bottom: 15px;
+	border-radius: 0;
+}
+.pro-details input:focus{
+	border-color: darkgray;
+	box-shadow: none;
+}
+.pro-details textarea{
+	margin-bottom:  10px;
+	border-radius: 0;
+	height: 120px;
+}
+#dashboard_content .sidebar{
+	border-left: 1px solid #337ab7;
+	height: 500px;
+}
+#dashboard_content aside{
+	padding: 10px;
+}
+.pro-details button{
+	height: 50px;
+	width: 200px;
+	margin-top: 20px;
+	background: #0076a3;
+	color: #fff;
+	box-shadow: 1px 2px 3px 1px #5e8198;
+	line-height: 30px;
+	font-size: 16px;
+	text-shadow: 1px 0 #222;
+}
+.pro-details button:hover, .pro-details button:focus{
+	color: #fff;
+	text-shadow: 1px 0 #222;
+	outline: none;
+}
+#open, #close{
+	cursor: pointer;
+	padding-bottom: 20px;
+}
